@@ -215,3 +215,86 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width: 980px) {
+  .container {
+    width: 100%;
+    max-width: 900px;
+    margin:  auto;
+    clear: both;
+  }
+  
+   .main-section {
+    max-width: 650px;
+    padding: 30px;
+    margin: 0 0 500px;
+  }
+    #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 50px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+    clear: both;
+  }
+  .main-section {
+    max-width: 700px;
+    padding: 30px;
+    margin: 0 0 30px;
+  }
+  #masthead {
+    position: static;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  
+  .container {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;   
+    clear: both;
+  }
+
+  nav {
+    margin: auto;
+    margin-left: 25%;
+    float: none;
+  }
+  #logo {
+    float: left;
+    width: 600px;
+    height: 90px;
+  }
+  #nav {
+    float: middle;
+  }
+  #masthead {
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+  }
+}
